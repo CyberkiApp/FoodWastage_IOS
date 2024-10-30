@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		008D72122CD2C29E00D69F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008D71F32CD2C29D00D69F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008D71FA2CD2C29D00D69F12;
+			remoteInfo = FoodWastage_IOS;
+		};
+		008D721C2CD2C29E00D69F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008D71F32CD2C29D00D69F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008D71FA2CD2C29D00D69F12;
+			remoteInfo = FoodWastage_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008D71FB2CD2C29D00D69F12 /* FoodWastage_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWastage_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008D72112CD2C29E00D69F12 /* FoodWastage_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWastage_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008D721B2CD2C29E00D69F12 /* FoodWastage_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWastage_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		008D72232CD2C29E00D69F12 /* Exceptions for "FoodWastage_IOS" folder in "FoodWastage_IOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 008D71FA2CD2C29D00D69F12 /* FoodWastage_IOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		008D71FD2CD2C29D00D69F12 /* FoodWastage_IOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				008D72232CD2C29E00D69F12 /* Exceptions for "FoodWastage_IOS" folder in "FoodWastage_IOS" target */,
+			);
+			path = FoodWastage_IOS;
+			sourceTree = "<group>";
+		};
+		008D72142CD2C29E00D69F12 /* FoodWastage_IOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodWastage_IOSTests;
+			sourceTree = "<group>";
+		};
+		008D721E2CD2C29E00D69F12 /* FoodWastage_IOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodWastage_IOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008D71F82CD2C29D00D69F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D720E2CD2C29E00D69F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D72182CD2C29E00D69F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008D71F22CD2C29D00D69F12 = {
+			isa = PBXGroup;
+			children = (
+				008D71FD2CD2C29D00D69F12 /* FoodWastage_IOS */,
+				008D72142CD2C29E00D69F12 /* FoodWastage_IOSTests */,
+				008D721E2CD2C29E00D69F12 /* FoodWastage_IOSUITests */,
+				008D71FC2CD2C29D00D69F12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008D71FC2CD2C29D00D69F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008D71FB2CD2C29D00D69F12 /* FoodWastage_IOS.app */,
+				008D72112CD2C29E00D69F12 /* FoodWastage_IOSTests.xctest */,
+				008D721B2CD2C29E00D69F12 /* FoodWastage_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008D71FA2CD2C29D00D69F12 /* FoodWastage_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008D72242CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOS" */;
+			buildPhases = (
+				008D71F72CD2C29D00D69F12 /* Sources */,
+				008D71F82CD2C29D00D69F12 /* Frameworks */,
+				008D71F92CD2C29D00D69F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				008D71FD2CD2C29D00D69F12 /* FoodWastage_IOS */,
+			);
+			name = FoodWastage_IOS;
+			packageProductDependencies = (
+			);
+			productName = FoodWastage_IOS;
+			productReference = 008D71FB2CD2C29D00D69F12 /* FoodWastage_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008D72102CD2C29E00D69F12 /* FoodWastage_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008D72292CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOSTests" */;
+			buildPhases = (
+				008D720D2CD2C29E00D69F12 /* Sources */,
+				008D720E2CD2C29E00D69F12 /* Frameworks */,
+				008D720F2CD2C29E00D69F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008D72132CD2C29E00D69F12 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				008D72142CD2C29E00D69F12 /* FoodWastage_IOSTests */,
+			);
+			name = FoodWastage_IOSTests;
+			packageProductDependencies = (
+			);
+			productName = FoodWastage_IOSTests;
+			productReference = 008D72112CD2C29E00D69F12 /* FoodWastage_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		008D721A2CD2C29E00D69F12 /* FoodWastage_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008D722C2CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOSUITests" */;
+			buildPhases = (
+				008D72172CD2C29E00D69F12 /* Sources */,
+				008D72182CD2C29E00D69F12 /* Frameworks */,
+				008D72192CD2C29E00D69F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008D721D2CD2C29E00D69F12 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				008D721E2CD2C29E00D69F12 /* FoodWastage_IOSUITests */,
+			);
+			name = FoodWastage_IOSUITests;
+			packageProductDependencies = (
+			);
+			productName = FoodWastage_IOSUITests;
+			productReference = 008D721B2CD2C29E00D69F12 /* FoodWastage_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008D71F32CD2C29D00D69F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					008D71FA2CD2C29D00D69F12 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					008D72102CD2C29E00D69F12 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 008D71FA2CD2C29D00D69F12;
+					};
+					008D721A2CD2C29E00D69F12 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 008D71FA2CD2C29D00D69F12;
+					};
+				};
+			};
+			buildConfigurationList = 008D71F62CD2C29D00D69F12 /* Build configuration list for PBXProject "FoodWastage_IOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008D71F22CD2C29D00D69F12;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 008D71FC2CD2C29D00D69F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008D71FA2CD2C29D00D69F12 /* FoodWastage_IOS */,
+				008D72102CD2C29E00D69F12 /* FoodWastage_IOSTests */,
+				008D721A2CD2C29E00D69F12 /* FoodWastage_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008D71F92CD2C29D00D69F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D720F2CD2C29E00D69F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D72192CD2C29E00D69F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008D71F72CD2C29D00D69F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D720D2CD2C29E00D69F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008D72172CD2C29E00D69F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008D72132CD2C29E00D69F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008D71FA2CD2C29D00D69F12 /* FoodWastage_IOS */;
+			targetProxy = 008D72122CD2C29E00D69F12 /* PBXContainerItemProxy */;
+		};
+		008D721D2CD2C29E00D69F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008D71FA2CD2C29D00D69F12 /* FoodWastage_IOS */;
+			targetProxy = 008D721C2CD2C29E00D69F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		008D72252CD2C29E00D69F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodWastage_IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008D72262CD2C29E00D69F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodWastage_IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		008D72272CD2C29E00D69F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008D72282CD2C29E00D69F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008D722A2CD2C29E00D69F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWastage_IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWastage_IOS";
+			};
+			name = Debug;
+		};
+		008D722B2CD2C29E00D69F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWastage_IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWastage_IOS";
+			};
+			name = Release;
+		};
+		008D722D2CD2C29E00D69F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWastage_IOS;
+			};
+			name = Debug;
+		};
+		008D722E2CD2C29E00D69F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillenialSolution.FoodWastage-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWastage_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008D71F62CD2C29D00D69F12 /* Build configuration list for PBXProject "FoodWastage_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008D72272CD2C29E00D69F12 /* Debug */,
+				008D72282CD2C29E00D69F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008D72242CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008D72252CD2C29E00D69F12 /* Debug */,
+				008D72262CD2C29E00D69F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008D72292CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008D722A2CD2C29E00D69F12 /* Debug */,
+				008D722B2CD2C29E00D69F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008D722C2CD2C29E00D69F12 /* Build configuration list for PBXNativeTarget "FoodWastage_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008D722D2CD2C29E00D69F12 /* Debug */,
+				008D722E2CD2C29E00D69F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008D71F32CD2C29D00D69F12 /* Project object */;
+}
